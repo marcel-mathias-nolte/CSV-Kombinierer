@@ -1,0 +1,25 @@
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.exe.config
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.exe
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.pdb
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV_Kombinierer.frmMain.resources
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV_Kombinierer.Properties.Resources.resources
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.csproj.GenerateResource.Cache
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.exe
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.pdb
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.exe.manifest
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.application
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.exe.manifest
+d:\windows profil (win 7)\documents\visual studio 2012\Projects\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.application
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.exe.config
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.exe
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.pdb
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.exe.manifest
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.application
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.exe
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\bin\Debug\CSV-Kombinierer.pdb
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.csprojResolveAssemblyReference.cache
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV_Kombinierer.frmMain.resources
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV_Kombinierer.Properties.Resources.resources
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.csproj.GenerateResource.Cache
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.exe.manifest
+C:\Users\nutzer\Desktop\GitHub\CSV-Kombinierer\CSV-Kombinierer\obj\Debug\CSV-Kombinierer.application
