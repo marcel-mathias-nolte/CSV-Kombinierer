@@ -34,5 +34,29 @@ namespace CSV_Kombinierer.Properties {
                 this["LastSave"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool LastRemoveHeadlines {
+            get {
+                return ((bool)(this["LastRemoveHeadlines"]));
+            }
+            set {
+                this["LastRemoveHeadlines"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int HeaderLineCount {
+            get {
+                return ((int)(this["HeaderLineCount"]));
+            }
+            set {
+                this["HeaderLineCount"] = value;
+            }
+        }
     }
 }

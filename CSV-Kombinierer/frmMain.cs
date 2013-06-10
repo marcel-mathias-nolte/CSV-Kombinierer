@@ -14,6 +14,8 @@ namespace CSV_Kombinierer
         public frmMain()
         {
             InitializeComponent();
+            nudHeaderCount.Enabled = chkRemoveFirstLine.Checked = Properties.Settings.Default.LastRemoveHeadlines;
+            nudHeaderCount.Value = Properties.Settings.Default.HeaderLineCount;
             lstFiles.DragEnter += (o, e) =>
                 {
                     if (e.Data.GetDataPresent(DataFormats.FileDrop, false) == true)
@@ -74,6 +76,8 @@ namespace CSV_Kombinierer
                             sfd.FileName = Properties.Settings.Default.LastSave;
                         }
                         sfd.OverwritePrompt = true;
+                        sfd.DefaultExt = "csv";
+                        sfd.Filter = "Komma-separierte Liste (*.csv)|*.csv|Alle Dateien (*.*)|*.*";
                         if (sfd.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
                         {
                             int lineCount = 0;
@@ -82,15 +86,15 @@ namespace CSV_Kombinierer
                                 bool isFirstFile = true;
                                 foreach (string file in lstFiles.Items)
                                 {
-                                    bool isFirstLine = true;
+                                    int lineNumber = 0;
                                     foreach (string line in System.IO.File.ReadAllLines(file))
                                     {
-                                        if (!isFirstLine || isFirstFile || !chkRemoveFirstLine.Checked)
+                                        lineNumber++;
+                                        if (lineNumber > nudHeaderCount.Value || isFirstFile || !chkRemoveFirstLine.Checked)
                                         {
                                             output.WriteLine(line);
                                             lineCount++;
                                         }
-                                        isFirstLine = false;
                                     }
                                     isFirstFile = false;
                                 }
@@ -98,10 +102,16 @@ namespace CSV_Kombinierer
                                 output.Close();
                             }
                             MessageBox.Show(this, lineCount.ToString() + " Zeilen aus " + lstFiles.Items.Count + " Dateien wurden in die Datei\n'" + sfd.FileName + "' geschrieben.", "Fertig!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Properties.Settings.Default.LastRemoveHeadlines = chkRemoveFirstLine.Checked;
                             Properties.Settings.Default.LastSave = sfd.FileName;
+                            Properties.Settings.Default.HeaderLineCount = (int)nudHeaderCount.Value;
                             Properties.Settings.Default.Save();
                         }
                     }
+                };
+            chkRemoveFirstLine.CheckedChanged += (o, e) =>
+                {
+                    nudHeaderCount.Enabled = chkRemoveFirstLine.Checked;
                 };
         }
     }

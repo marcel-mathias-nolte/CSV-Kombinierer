@@ -10,6 +10,12 @@
             <setting name="LastSave" serializeAs="String">
                 <value />
             </setting>
+            <setting name="LastRemoveHeadlines" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="HeaderLineCount" serializeAs="String">
+                <value>1</value>
+            </setting>
         </CSV_Kombinierer.Properties.Settings>
     </userSettings>
 </configuration>
